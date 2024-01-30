@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91CD6A3B-CDB8-4BEF-9FFA-C6D097589BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashRoyalManager.API", "src\ClashRoyalManager.API\ClashRoyalManager.API.csproj", "{386CC97B-6334-48EF-BE84-390E538513C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashRoyalManager.Application", "src\ClashRoyalManager.Application\ClashRoyalManager.Application.csproj", "{19B555C0-5F4D-4F7F-BEB1-070AC2E3C399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashRoyalManager.Domain", "src\ClashRoyalManager.Domain\ClashRoyalManager.Domain.csproj", "{AB9B5804-0E6E-4E7D-BC02-C3DDCD801681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashRoyalManager.Infrastructure", "src\ClashRoyalManager.Infrastructure\ClashRoyalManager.Infrastructure.csproj", "{E852AD73-0B14-4D82-996B-4CAA3F52C593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{386CC97B-6334-48EF-BE84-390E538513C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386CC97B-6334-48EF-BE84-390E538513C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386CC97B-6334-48EF-BE84-390E538513C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386CC97B-6334-48EF-BE84-390E538513C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B555C0-5F4D-4F7F-BEB1-070AC2E3C399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B555C0-5F4D-4F7F-BEB1-070AC2E3C399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B555C0-5F4D-4F7F-BEB1-070AC2E3C399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B555C0-5F4D-4F7F-BEB1-070AC2E3C399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9B5804-0E6E-4E7D-BC02-C3DDCD801681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9B5804-0E6E-4E7D-BC02-C3DDCD801681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9B5804-0E6E-4E7D-BC02-C3DDCD801681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9B5804-0E6E-4E7D-BC02-C3DDCD801681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E852AD73-0B14-4D82-996B-4CAA3F52C593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E852AD73-0B14-4D82-996B-4CAA3F52C593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E852AD73-0B14-4D82-996B-4CAA3F52C593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E852AD73-0B14-4D82-996B-4CAA3F52C593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{386CC97B-6334-48EF-BE84-390E538513C7} = {91CD6A3B-CDB8-4BEF-9FFA-C6D097589BF6}
+		{19B555C0-5F4D-4F7F-BEB1-070AC2E3C399} = {91CD6A3B-CDB8-4BEF-9FFA-C6D097589BF6}
+		{AB9B5804-0E6E-4E7D-BC02-C3DDCD801681} = {91CD6A3B-CDB8-4BEF-9FFA-C6D097589BF6}
+		{E852AD73-0B14-4D82-996B-4CAA3F52C593} = {91CD6A3B-CDB8-4BEF-9FFA-C6D097589BF6}
+	EndGlobalSection
+EndGlobal
